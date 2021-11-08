@@ -1,7 +1,9 @@
-echo "# Razberg" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Razberg/Razberg.git
-git push -u origin main
+int sum = 0;
+for (int a = 1; a < 21; a++)
+{
+    if (a % 3 == 0)
+    {
+        sum = sum + a;
+    }
+}
+console.writeline($"{sum}");
